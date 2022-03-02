@@ -14,8 +14,8 @@ hello('Oscar')
 
 # Fib
 
-This function calculates the n:th fibbonacci number reccursively.
-The followin code snipped prints the first 10 fibbonaci numbers:
+This function calculates the n:th fibbonacci.
+The following code snipped prints the first 10 fibbonaci numbers:
 ```python
 for i in range(10):
     print(fib(i))
