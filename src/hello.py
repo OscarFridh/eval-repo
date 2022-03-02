@@ -7,8 +7,6 @@ def hello(name = None, preferred_language="en"):
         print(f"Hello, {name}!")
 
 
-def fib(n):
-   if n <= 1:
-       return n
-   else:
-       return(fib(n-1) + fib(n-2))
+def fib(N):
+	golden_ratio = (1 + 5 ** 0.5) / 2
+	return int((golden_ratio ** N + 1) / 5 ** 0.5)
